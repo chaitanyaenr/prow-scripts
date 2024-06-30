@@ -20,7 +20,7 @@ echo "Printing cluster version"
 oc version
 
 # Copy config to kraken
-cp node-io-hog/input.yaml.template $SCENARIO_FOLDER/input.yaml.template
+sudo cp node-io-hog/input.yaml.template $SCENARIO_FOLDER/input.yaml.template
 
 source node-io-hog/env.sh
 source env.sh
